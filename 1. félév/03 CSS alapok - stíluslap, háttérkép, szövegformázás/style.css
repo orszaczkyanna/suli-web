@@ -1,0 +1,18 @@
+/* CSS komment */
+
+body {
+  /* background-color: lightblue; */
+  background-image: url(bg.jpg);
+  background-size: 100%; /* a háttérkép töltse ki az oldalt: szélességhez igazítva nagyít, nem nyújtja kifüggőlegesen */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* a háttér ne mozduljon el görgetéskor, a tartalom előtte mozogjon */
+}
+
+p {
+  font-style: italic; /* dőlt */
+  font-weight: bold; /* félkövér */
+  font-size: 15pt;
+  /* color: darkblue; betűszín név alapján */
+  /* color: #000064; betűszín, betűszín hexadecimálisan */
+  color: rgba(0, 0, 100, 0.5); /* betűszín, félig átlátszó, rgb kóddal */
+}
