@@ -1,0 +1,26 @@
+<html>
+  <body>
+    <script>
+      var alap = 2;
+      var kitevo = 10;
+      var eredm = 1;
+      var temp;
+
+      for (i = 1; i < kitevo + 1; i++) {
+        eredm = eredm * alap;
+        eredm = eredm.toString();
+
+        if (eredm.length > 2) {
+          eredm = eredm.slice(eredm.length - 3);
+        } else if (eredm.length > 1) {
+          eredm = eredm.slice(eredm.length - 2);
+        } else {
+          eredm = eredm.slice(eredm.length - 1);
+        }
+
+        eredm = parseInt(eredm);
+      }
+      document.write(eredm);
+    </script>
+  </body>
+</html>

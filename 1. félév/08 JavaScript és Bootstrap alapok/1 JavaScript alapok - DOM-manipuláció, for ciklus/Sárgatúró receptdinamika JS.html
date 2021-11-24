@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sárgatúró JS</title>
+    <!-- <link rel="stylesheet" type="text/css" href="main.css" /> -->
+  </head>
+  <body>
+    <p>
+      A sárgatúró rejeptje
+      <input type="number" id="inp" onchange="frissit()" /> főre
+    </p>
+    <p>Hozzávalók:</p>
+    <div id="cel"></div>
+
+    <!-- function → hogy ne fusson le automatikusan, amikor az oldal betöltődik -->
+
+    <script>
+      function frissit() {
+        szam = document.getElementById("inp").value;
+        document.getElementById("cel").innerHTML =
+          "<ul><li>" +
+          szam / 5 +
+          " l tej</li>  <li>" +
+          szam * 2 +
+          " db tojás</li>  <li>" +
+          szam +
+          " ek cukor</li>  </ul>";
+      }
+    </script>
+  </body>
+</html>
