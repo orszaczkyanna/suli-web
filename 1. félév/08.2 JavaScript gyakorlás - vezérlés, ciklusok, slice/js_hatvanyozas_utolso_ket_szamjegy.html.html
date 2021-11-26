@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hatvány</title>
+  </head>
+  <body>
+    <script>
+      // Értékek
+      var alap = 2;
+      var kitevo = 10;
+      var eredmeny = 1;
+
+      // A hatvány értékének kiszámítása ciklussal
+      for (var i = 1; i <= kitevo; i++) {
+        eredmeny *= alap;
+      }
+
+      // // A hatvány értékének kiszámítása beépített függvénnyel
+      // var eredmeny = Math.pow(alap, kitevo);
+
+      // Eredmény kiírása
+      document.write("Eredmény: " + eredmeny + "<br>");
+
+      // Szám szöveggé alakítása, hogy karakterenként tudjunk vele dolgozni
+      var szoveg = eredmeny.toString();
+
+      // Utolsó két számjegy kiemelése
+      var megoldas = szoveg.slice(-2);
+      document.write("Utolsó két számjegy: " + megoldas);
+    </script>
+  </body>
+</html>
