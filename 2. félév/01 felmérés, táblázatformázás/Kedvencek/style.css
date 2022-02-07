@@ -1,0 +1,29 @@
+body {
+  background-color: #b0c1bd;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.nagyobbbetu {
+  font-size: 14pt;
+}
+
+ol {
+  color: #117b2e;
+  font-weight: bold;
+}
+
+#dolt {
+  font-style: italic;
+}
+
+#fterkoz {
+  margin-top: 50px;
+}
+
+img {
+  float: right;
+}
