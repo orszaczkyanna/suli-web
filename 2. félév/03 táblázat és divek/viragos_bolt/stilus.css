@@ -1,0 +1,73 @@
+body {
+  background-color: #ffe0e4;
+}
+
+/*A logo formázása*/
+#logo {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+/*A menü formázása*/
+#menu {
+  background-color: #ff9eab;
+  width: 900px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*A tartalmi tárolsó elem formázása*/
+#tartalom {
+  background-color: #ff9eab;
+  width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 16pt;
+}
+
+/*A képek formázása*/
+img {
+  border: 2px solid black;
+}
+
+img:hover {
+  border: 2px solid red;
+}
+
+.tartkep {
+  text-align: right;
+}
+
+.tartkep img {
+  width: 250px;
+}
+
+/*A linkek formázása*/
+a:link {
+  color: #510200;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #510200;
+}
+
+a:hover {
+  color: #cc0300;
+}
+
+a:active {
+  color: #510200;
+}

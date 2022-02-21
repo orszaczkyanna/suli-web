@@ -1,0 +1,50 @@
+body {
+  background-image: url("hatter.png");
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  border: dotted red 3px;
+  width: 80%;
+}
+
+th,
+td {
+  border: dotted red 2px;
+}
+
+th {
+  line-height: 60px;
+}
+
+.dolt {
+  font-style: italic;
+}
+
+.piros {
+  font-weight: bold;
+  color: red;
+}
+
+.kep {
+  padding: 10px;
+  width: 120px;
+}
+img {
+  width: 100px;
+  border: solid red 2px;
+}
+
+p {
+  margin: 30px 0px;
+}
+ul {
+  list-style-type: square;
+}
