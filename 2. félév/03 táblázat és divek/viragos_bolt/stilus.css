@@ -71,3 +71,7 @@ a:hover {
 a:active {
   color: #510200;
 }
+
+.felkov {
+  font-weight: bold;
+}
