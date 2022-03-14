@@ -64,9 +64,15 @@ a:active {
 #tartalom {
   background-color: #8999ab;
   margin-top: 30px;
-  min-height: 700px;
   padding: 7px;
   padding-right: 0px;
+  /*overflow: auto;*/
+}
+
+#tartalom::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 #tartalom h1,
@@ -130,4 +136,14 @@ h6 {
   margin: 20px;
   line-height: 30px;
   font-weight: bold;
+}
+
+/*Káosz*/
+.hasabok {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.forraslista {
+  list-style-type: "- ";
 }
