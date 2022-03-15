@@ -1,0 +1,158 @@
+/**{box-sizing: border-box;}*/
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+  color: #434b54;
+  background-color: #444444;
+  background-image: url("kepek/hatter.jpg");
+  /*background-repeat: repeat;*/
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #434b54;
+}
+
+a:hover {
+  color: #006989;
+}
+
+a:active {
+  text-decoration: none;
+  color: #434b54;
+}
+
+#tarolo {
+  width: 700px;
+  background-color: #434b54;
+  margin: auto;
+  border: 2px solid #5b5b5b;
+}
+
+#cim {
+  height: 150px;
+  line-height: 120px;
+  color: #8999ab;
+  font-size: 32pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+#menu {
+  background-color: #8fa3ba;
+  font-weight: bold;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+#menusor {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#menusor li {
+  display: inline;
+  margin: 0px 10px;
+}
+
+.menuinaktiv {
+  text-decoration: line-through;
+}
+
+#tartalom {
+  background-color: #8999ab;
+  margin-top: 30px;
+  padding: 7px;
+  padding-right: 0px;
+  position: relative;
+  /*pozícionált elemnek számít, akkor is, ha nem módosítunk az elhelyezkedésén*/
+  min-height: 700px;
+}
+
+#tartalomszoveg {
+  display: inline-block;
+  width: 488px;
+}
+
+#tartalomszoveg h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+#jobbsav {
+  width: 200px;
+  background-color: #434b54;
+  /*float: right;*/
+  /*inline-block és float nem működik együtt*/
+  color: #8fa3ba;
+  text-align: center;
+  /*margin-left: 5px;*/
+  display: inline-block;
+  position: absolute;
+  /*csak akkor pozícionálja, ha a szülő elemnek is van pozívionálása*/
+  /*ahhoz viszonítva, ami a legközelebb pozícionált, ha nincs, akkor a document body-t haználja*/
+  right: 0px;
+}
+
+#jobbsav img {
+  width: 194px;
+}
+
+/*M.A.G.U.S.*/
+.dolt {
+  font-style: italic;
+}
+
+#alaptabla {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#alaptabla tr {
+  border-top: 1px solid #434b54;
+  border-bottom: 1px solid #434b54;
+}
+
+#alaptabla td {
+  padding: 2px;
+}
+
+/*numenera*/
+#numenera_kepek {
+  text-align: center;
+}
+
+#numenera_kepek img {
+  border: 1px solid #434b54;
+  margin: 5px;
+}
+
+.forras {
+  margin: 20px 0px;
+}
+
+/*Shadowrun*/
+#kard {
+  list-style-image: url("kepek/kard.png");
+  margin: 20px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+/*Káosz*/
+.hasabok {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.forraslista {
+  list-style-type: "- ";
+}
