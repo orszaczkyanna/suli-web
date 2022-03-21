@@ -1,0 +1,41 @@
+::first-line
+::first-letter
+::before
+::after
+::marker   /*listák esetén magát a jelölőt módosítja (pl. kört valamire)*/
+::selection    /*a felhasználó által kijelölt területet formázza*/
+
+
+p::first-line {
+  color: red;
+  font-variant: small-caps;
+}
+
+p.udvozles::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+}
+
+/*
+.udvozles p
+így az udvozles osztályban lévő bekezdéseket formázom*/
+
+/*Példa: tartalom megjelenítése egy elem előtt*/
+h1::before {
+  content: url("ikon.png");
+}
+
+p::before {
+  content: "Fontos információ:";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
+
+li::marker {
+  content: "#";
+}
+
+li::before {
+  content: "## ";
+}
