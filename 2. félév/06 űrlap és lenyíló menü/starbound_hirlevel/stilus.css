@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #eeeeee;
+  background-image: url("kepek/hatter.png");
+}
+
+#minden {
+  width: 500px;
+  margin: 20px auto;
+}
+
+#logo {
+  max-width: 500px;
+}
+
+#menu,
+#tartalom {
+  text-align: center;
+  background-color: #dbdbdb;
+  border-radius: 10px;
+}
+
+#menu {
+  margin-bottom: 50px;
+  height: 40px;
+  line-height: 40px;
+}
+
+#menulista li {
+  display: inline;
+  margin: 0px 20px;
+  list-style-type: none;
+}
+
+.menupont {
+  position: relative;
+}
+
+.menudropdown {
+  position: absolute;
+  left: 0px;
+  line-height: 30px;
+  padding-left: 6px;
+  padding-right: 6px;
+  background-color: #dbdbdb;
+  border: 1px solid #999999;
+  display: none;
+}
+
+.menupont:hover .menudropdown {
+  display: inline-block;
+}
+
+.menupont:hover,
+.menudropdown a:hover {
+  background-color: #c4c4c4;
+}
+
+#tartalom {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: medium;
+  font-weight: bold;
+}
+
+#fejleszteskep {
+  opacity: 60%;
+  margin-top: 30px;
+}
+
+#fejleszteskep:hover {
+  opacity: 100%;
+}
+
+#tartalom p {
+  text-align: left;
+}
