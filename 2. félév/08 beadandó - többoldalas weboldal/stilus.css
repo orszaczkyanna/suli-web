@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: sNurito;
+  src: url("fonts/Nunito-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: sPlayball;
+  src: url("fonts/Playball-Regular.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #682d2f;
+  background-image: url("pics/bg.png");
+  background-attachment: fixed;
+  font-family: sNurito;
+  color: #493b34;
+  text-align: justify;
+}
+
+#tarolo {
+  background-color: #ece4d3;
+  margin: auto;
+  padding: 20px;
+  width: 760px;
+  position: relative;
+  border-radius: 4px;
+}
+
+/*Fejléc*/
+header {
+  text-align: center;
+  position: relative;
+  border-radius: 3px;
+  user-select: none;
+}
+
+#logo {
+  width: 720px;
+  border: 3px solid #6b0012;
+  border-radius: inherit;
+}
+
+#oldalcim {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  font-family: sPlayball;
+  font-size: 50pt;
+  font-weight: bold;
+  color: #6b0012;
+  opacity: 90%;
+}
+
+/*Menü*/
+nav {
+  background-color: #6b0012;
+  text-align: center;
+  border: 1px solid #6b0012;
+  position: sticky;
+  top: 0px;
+  border-radius: 3px;
+  user-select: none;
+}
+nav a {
+  color: #ece4d3;
+}
+
+.menugomb {
+  display: inline-block;
+  width: 190px;
+  border-radius: 2px;
+}
+
+.menugomb:hover {
+  background-color: #ece4d3;
+  color: #6b0012;
+}
+
+/*Tartalom*/
+main {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #493b34;
+}
+
+a:hover {
+  color: #a79d99;
+}
+
+img,
+#yvideo {
+  border: 1px solid #6b0012;
+  border-radius: 3px;
+  padding: 0px;
+}
+
+#viddiv {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #6b0012;
+}
+
+.balkep {
+  float: left;
+  margin-right: 15px;
+}
+
+.jobbkep {
+  float: right;
+  margin-left: 15px;
+}
+
+.dolt {
+  font-style: italic;
+}
+
+/*Táblázat*/
+#nepesseg_tab {
+  border-collapse: collapse;
+  width: 500px;
+  color: #6b0012;
+}
+
+#nepesseg_tab td,
+th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#nepesseg_tab th {
+  text-align: center;
+}
+
+.kim {
+  background-color: #d4baa5;
+}
+
+.szam {
+  width: 20px;
+  text-align: right;
+}
+
+/*Űrlap*/
+#urlap p {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+input,
+select {
+  width: 200px;
+  height: 25px;
+  border: 1px solid #493b34;
+  border-radius: 3px;
+  background-color: #f3f1ed;
+}
+
+.gomb {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #493b34;
+}
+
+.gomb:hover {
+  background-color: #fdfcf9;
+  color: #a79d99;
+}
+
+/*Lábléc*/
+footer {
+  font-size: small;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: #936163;
+  height: 3px;
+}
+
+#fel {
+  background-color: #6b0012;
+  color: #ece4d3;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 50%;
+  position: absolute;
+  right: 30px;
+  bottom: 25px;
+  opacity: 60%;
+}
+
+#fel:hover {
+  opacity: 100%;
+}
