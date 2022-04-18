@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kiemelt pillanatok a kedvenc játékomból." />
+    <meta name="keywords" content="videójáték,kedvenc,overwatch" />
+    <link rel="stylesheet" href="stilus.css" />
+    <title>Videójáték pillanatok</title>
+  </head>
+  <body>
+    <!--Videók-->
+    <div id="tartalom">
+      <h1 id="linktop">Kedvenc pillanataim</h1>
+      <!--Az első videó-->
+      <hr />
+      <h2 id="linkvid1">A játék trailere</h2>
+      <div class="beagyaz">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/FqnKB22pOC0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <!--A második videó-->
+      <hr />
+      <h2 id="linkvid2">Egyik kedvenc pillanatom</h2>
+      <div class="beagyaz">
+        <video controls>
+          <source src="videok/phara.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <!--A harmadik videó-->
+      <hr />
+      <h2 id="linkvid3">Egy másik kedvenc pillanatom</h2>
+      <div class="beagyaz">
+        <video controls>
+          <source src="videok/reaper.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+
+    <!--Logo-->
+    <div id="logo">
+      <img src="kepek/logo.png" alt="Overwatch logo" title="Az Overwatch logója." />
+    </div>
+
+    <!--Menü-->
+    <div id="menu">
+      <a href="#linktop"><div class="menupont">Az oldal teteje</div></a>
+      <hr />
+      <a href="#linkvid1"><div class="menupont">Trailer</div></a>
+      <hr />
+      <a href="#linkvid2"><div class="menupont">Első pillanat</div></a>
+      <hr />
+      <a href="#linkvid3"><div class="menupont">Második pillanat</div></a>
+    </div>
+  </body>
+</html>
