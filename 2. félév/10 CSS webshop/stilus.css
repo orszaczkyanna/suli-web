@@ -1,0 +1,283 @@
+@font-face {
+  font-family: sajatLogo;
+  src: url("betutipus/SimplePrint.ttf");
+}
+
+@font-face {
+  font-family: sajatMenu;
+  src: url("betutipus/FashionFetishRegular.ttf");
+}
+
+@font-face {
+  font-family: sajatSzoveg;
+  src: url("betutipus/ComfortaaRegular.ttf");
+}
+
+body {
+  background-color: #e8f3f1;
+  background-image: url("kepek/hatter.png");
+  font-family: sajatSzoveg;
+}
+
+#logo {
+  max-width: 700px;
+  height: 150px;
+  margin: auto;
+  background-color: #86cdcd;
+  background-image: url("kepek/logo_hatter.jpg");
+  background-size: 100%;
+  border-radius: 14px;
+  box-shadow: 10px 10px 15px #333333;
+  position: relative;
+}
+
+#logoszoveg {
+  background-color: rgba(232, 243, 243, 0.7);
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  line-height: 150px;
+  text-align: center;
+  font-size: 70pt;
+  font-family: sajatLogo;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#logo img {
+  width: 80px;
+  position: absolute;
+}
+
+#logolevel {
+  left: -50px;
+  bottom: -20px;
+}
+
+#logogombok {
+  right: 20px;
+  top: -10px;
+}
+
+#logopaletta {
+  right: -3px;
+  top: 45px;
+}
+
+@media screen and (max-width: 620px) {
+  #logo img {
+    display: none;
+  }
+}
+
+#menu {
+  max-width: 700px;
+  min-width: 320px;
+  background-color: #e1f0ee;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 14px;
+  box-shadow: 10px 10px 15px #333333;
+  position: sticky;
+  position: -webkit-sticky; /*safari kompatibilitáshoz*/
+  top: 0px;
+  text-align: center;
+  font-family: sajatMenu;
+  z-index: 1;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#menu li {
+  display: inline-block;
+  padding: 0px 30px;
+  height: 40px;
+  line-height: 40px;
+  margin: 5px 0px;
+  border-radius: 5px;
+}
+
+#menu li:hover {
+  background-color: #86cdc7;
+}
+
+@media screen and (max-width: 620px) {
+  #menu li {
+    display: block;
+    margin: auto;
+  }
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#tarolo {
+  max-width: 1400px;
+  min-width: 420px;
+  margin: auto;
+  margin-top: 50px;
+  min-height: 500px;
+  /*Reszponzív*/
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.kartya {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #f4f9f9;
+  width: 400px;
+  height: 280px;
+  padding: 7px 12px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px #333333;
+  border-radius: 50% 20% / 10% 40%;
+}
+
+.kartya img {
+  width: 150px;
+  margin-top: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  float: left;
+}
+
+.kartya h1 {
+  margin-bottom: 0px;
+}
+
+.termekar {
+  font-size: 10pt;
+  margin-top: 5px;
+}
+
+.gombok {
+  padding: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  user-select: none;
+}
+
+.gombkosarba,
+.gombtovabb {
+  display: inline-block;
+  background-color: #86cdc7;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0px 5px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.gombkosarba:hover,
+.gombtovabb:hover {
+  background-color: #96d6d2;
+}
+
+.gombkosarba:active,
+.gombtovabb:active {
+  background-color: #86cdc7;
+}
+
+@media screen and (max-width: 470px) {
+  .kartya p {
+    font-size: 10pt;
+  }
+}
+
+/*Galéria*/
+#tarolokepek {
+  margin: auto;
+  margin-top: 50px;
+  max-width: 1200px;
+  column-count: 2;
+  column-gap: 0px;
+  /*
+    column-rule-width: 3px;
+    column-rule-style: solid;
+    column-rule-color: #419999;
+    */
+  column-rule: 3px solid #419999;
+  text-align: center;
+}
+
+#tarolokepek img {
+  width: 530px;
+  border-radius: 10px;
+}
+
+/*Kapcsolat*/
+#taroloszoveg {
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 50px;
+  min-width: 320px;
+  max-width: 700px;
+  background-color: #e1f0ee;
+  padding: 12px;
+  border-radius: 14px;
+  box-shadow: 10px 10px 15px #333333;
+}
+
+#taroloszoveg h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sajatMenu;
+  margin-top: 30px;
+}
+
+#taroloszoveg p {
+  white-space: pre;
+}
+
+#hirlevel {
+  font-family: sajatSzoveg;
+}
+
+#nev,
+#email {
+  width: 250px;
+  height: 20px;
+  font-size: 12pt;
+  border: 2px solid #419999;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  background-color: #e1f0ee;
+}
+
+#adatokbekuldese,
+#adatoktorlese {
+  background-color: #86cdc7;
+  height: 30px;
+  width: 150px;
+  font-size: 12pt;
+  border-radius: 10px;
+  border: none;
+}
+
+#adatokbekuldese:hover,
+#adatoktorlese:hover {
+  background-color: #96d6d2;
+  cursor: pointer;
+}
+
+#adatokbekuldese:active,
+#adatoktorlese:active {
+  background-color: #86cdc7;
+}
