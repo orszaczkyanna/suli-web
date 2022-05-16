@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Üdvözlőüzenet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stilus.css" />
+    <!--<script src="kod.js"></script>-->
+  </head>
+  <body>
+    <div id="tartalom">
+      <button
+        type="button"
+        onclick="document.getElementById('kiir').innerHTML = 'Üdvözlet a weboldalon!';"
+      >
+        <!--aposztrófok közé kell tenni az ID nevet, ha html-ben adjuk meg a kódot-->
+        Üdvözlés
+      </button>
+      <div id="kiir"></div>
+    </div>
+  </body>
+</html>
