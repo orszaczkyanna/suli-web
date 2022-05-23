@@ -1,0 +1,62 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #111344;
+}
+
+#tartalom {
+  background-color: #f9cff2;
+  width: 700px;
+  height: 600px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#feladatok,
+#eredmenyek {
+  width: 40%;
+  height: 440px;
+  border-radius: 5px;
+  border: 1px solid #52154e;
+  padding: 5px;
+  display: inline-table;
+  margin: 0 5px;
+}
+
+#feladatok {
+  background-color: #dae0f2;
+}
+
+#eredmenyek {
+  background-color: #efe9e7;
+}
+
+h2 {
+  font-size: 14pt;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+input {
+  margin: 0 5px;
+  width: 80px;
+}
+
+button {
+  border: 1px solid #52154e;
+  border-radius: 2px;
+  margin: 5px;
+  margin-top: 15px;
+}
+
+#feladatok button {
+  background-color: #dae0f2;
+}
+
+#eredmenyek button {
+  background-color: #efe9e7;
+}
+
+span {
+  font-weight: bold;
+}

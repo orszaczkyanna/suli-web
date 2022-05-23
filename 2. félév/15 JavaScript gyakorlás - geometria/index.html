@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Geometriai számítások</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stilus.css" />
+    <script src="kod.js"></script>
+  </head>
+  <body>
+    <div id="tartalom">
+      <h1>Geometriai számítások</h1>
+
+      <form id="feladatok">
+        <h2>Szabályos háromszög</h2>
+        <label for="oldal-haromszog">Oldal: </label>
+        <input type="number" id="oldal-haromszog" />
+        <br />
+        <button type="button" onclick="haromszogKeruletSzamol();">Kerület</button>
+        <button type="button" onclick="haromszogTeruletSzamol();">Terület</button>
+
+        <h2>Kör</h2>
+        <label for="sugar">Sugár: </label>
+        <input type="number" id="sugar" />
+        <br />
+        <button type="button" onclick="korKeruletSzamol();">Kerület</button>
+        <button type="button" onclick="korTeruletSzamol();">Terület</button>
+
+        <h2>Téglalap</h2>
+        <label for="oldal-a-teglalap">Oldal 1: </label>
+        <input type="number" id="oldal-a-teglalap" />
+        <br />
+        <label for="oldal-b-teglalap">Oldal 2: </label>
+        <input type="number" id="oldal-b-teglalap" />
+        <br />
+        <button type="button" onclick="teglalapKeruletSzamol();">Kerület</button>
+        <button type="button" onclick="teglalapTeruletSzamol();">Terület</button>
+      </form>
+
+      <form id="eredmenyek">
+        <h2>Eredmények</h2>
+        <p>Kerület: <span id="ker-kiir"></span></p>
+        <p>Terület: <span id="ter-kiir"></span></p>
+        <button type="reset" onclick="torol();">Törlés</button>
+      </form>
+    </div>
+  </body>
+</html>
