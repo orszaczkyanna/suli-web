@@ -1,0 +1,55 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #153131;
+}
+
+h1 {
+  text-align: center;
+}
+
+#tarolo {
+  background-color: #45cb85;
+  width: 700px;
+  min-height: 500px;
+  border: 1px solid #153131;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+input {
+  height: 30px;
+  font-size: 12pt;
+}
+
+button {
+  display: block;
+  margin-top: 5px;
+  background-color: #6a7fdb;
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: 1px solid #153131;
+  font-size: 12pt;
+}
+
+button:hover {
+  background-color: white;
+  color: #6a7fdb;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #6a7fdb;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 30px;
+  line-height: 30px;
+  padding: 5px;
+  color: white;
+}
