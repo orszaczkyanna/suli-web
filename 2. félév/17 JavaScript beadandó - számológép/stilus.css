@@ -1,0 +1,74 @@
+body {
+  background-color: #e2f1d0;
+  color: #071351;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tarolo {
+  margin: 50px auto;
+  padding: 30px;
+  border: #071351 solid 2px;
+  border-radius: 5px;
+  background-color: #bdd8eb;
+  width: 400px;
+  text-align: center;
+}
+
+input {
+  height: 30px;
+  border-radius: 3px;
+  border: #071351 1px solid;
+  width: 150px;
+  margin: 0px;
+  background-color: #e2f1d0;
+  font-size: 12pt;
+  text-align: center;
+}
+
+#muvelet {
+  display: inline-block;
+  width: 30px;
+}
+
+/*Számolás*/
+.muveletek,
+#torol,
+#eredmeny {
+  height: 40px;
+  border: #071351 1px solid;
+  border-radius: 2px;
+  font-size: 18pt;
+  background-color: #e2f1d0;
+}
+
+.muveletek:hover,
+#torol:hover {
+  background-color: #fafff3;
+  cursor: pointer;
+}
+
+.muveletek:active,
+#torol:active {
+  background-color: #e2f1d0;
+}
+
+.muveletek {
+  width: 40px;
+  display: inline-block;
+  margin: 30px 10px 10px 10px;
+  padding: 0px;
+}
+
+#torol {
+  width: 80px;
+  margin: 10px auto;
+  font-size: 15pt;
+  line-height: 40px;
+}
+
+#eredmeny {
+  margin: 30px auto;
+  height: 50px;
+  line-height: 50px;
+  width: 250px;
+}

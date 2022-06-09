@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <title>Számológép</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stilus.css" />
+    <script src="kod.js"></script>
+  </head>
+  <body>
+    <div id="tarolo">
+      <h1>Számológép</h1>
+      <p>Adj meg két számot és végezz rajtuk műveletet!</p>
+
+      <div id="szamolas">
+        <input type="number" id="aSzam" />
+        <div id="muvelet">?</div>
+        <input type="number" id="bSzam" />
+      </div>
+
+      <div id="osszead" class="muveletek" onclick="osszead();">+</div>
+      <div id="kivon" class="muveletek" onclick="kivon();">-</div>
+      <div id="szoroz" class="muveletek" onclick="szoroz();">*</div>
+      <div id="oszt" class="muveletek" onclick="oszt();">/</div>
+
+      <div id="torol" onclick="torol();">Töröl</div>
+
+      <div id="eredmeny"></div>
+    </div>
+  </body>
+</html>
