@@ -1,0 +1,60 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #011627;
+}
+
+h1 {
+  text-align: center;
+}
+
+#bevitel,
+#tarolo {
+  background-color: #00c49a;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 20px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#bevitel {
+  height: 240px;
+}
+
+#tarolo {
+  margin-top: 50px;
+}
+
+input {
+  margin-top: 5px;
+  width: 200px;
+  height: 25px;
+  font-size: 12pt;
+  border: 1px solid #011627;
+}
+
+button {
+  background-color: #fb8f67;
+  color: #fdfffc;
+  width: 80px;
+  height: 25px;
+  border: 1px solid #011627;
+}
+
+button:hover {
+  background-color: #fdfffc;
+  color: #fb8f67;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+td {
+  border: 1px solid #011627;
+  padding: 5px;
+  text-align: center;
+}
